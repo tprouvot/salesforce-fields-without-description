@@ -13,6 +13,6 @@ jobs:
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - name: Check for fields without description
         run:
-          echo help-functions.sh
+          help-functions.sh
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
