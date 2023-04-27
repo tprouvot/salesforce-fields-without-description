@@ -1,5 +1,7 @@
 #!/bin/sh
 
+export_nb_fields_no_desc
+
 # Count number of fields without description
 function export_nb_fields_no_desc(){
 	echo "Export number of fields without description variable"
